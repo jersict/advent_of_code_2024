@@ -1,5 +1,5 @@
 # OPEN AND READ THE INPUT.TXT FILE
-f = open('01\input.txt', 'r')
+f = open('inputs\\01\\input.txt', 'r')
 lines = f.readlines()
 f.close()
 

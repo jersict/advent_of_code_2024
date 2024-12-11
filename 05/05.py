@@ -35,7 +35,7 @@ def check_update(update):
   return was_correct, int(update[int((len(update)-1)/2)])
 
 # OPEN AND READ THE INPUT.TXT FILE, THEN CLOSE IT, AS IT IS NO LONGER NEEDED.
-f = open('05\input.txt', 'r')
+f = open('inputs\\05\\input.txt', 'r')
 lines = f.readlines()
 f.close()
 

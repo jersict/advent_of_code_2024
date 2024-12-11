@@ -32,7 +32,6 @@ def find_x_mases(word_search, x, y):
   if not 0 < x < len(word_search)-1 or not 0 < y < len(word_search[x])-1:
     return 0
   if word_search[x-1][y-1]+word_search[x][y]+word_search[x+1][y+1] in ['MAS','SAM'] and word_search[x-1][y+1]+word_search[x][y]+word_search[x+1][y-1] in ['MAS','SAM']:
-    print(x, y)
     return 1
   return 0
 
@@ -41,7 +40,7 @@ def find_x_mases(word_search, x, y):
 if __name__ == "__main__":
 
   # OPEN AND READ THE INPUT.TXT FILE, THEN CLOSE IT, AS IT IS NO LONGER NEEDED.
-  f = open('input.txt', 'r')
+  f = open('inputs\\04\\input.txt', 'r')
   lines = f.readlines()
   f.close()
 

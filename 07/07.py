@@ -44,7 +44,7 @@ def handle_concatenation(final_res, current_res, nums):
 # RUN THIS IF PROGRAM IS RUN FROM THE COMMAND LINE.
 if __name__ == "__main__":
   # OPEN AND READ THE INPUT.TXT FILE, THEN CLOSE IT, AS IT IS NO LONGER NEEDED.
-  f = open('07\input.txt', 'r')
+  f = open('inputs\\07\\input.txt', 'r')
   equations = f.readlines()
   f.close()
 

@@ -19,7 +19,7 @@ def calculateMuls(line):
 if __name__ == "__main__":
 
 # OPEN AND READ THE INPUT.TXT FILE, THEN CLOSE IT, AS IT IS NO LONGER NEEDED.
-  f = open('03\input.txt', 'r')
+  f = open('inputs\\03\\input.txt', 'r')
   line = f.read()
   f.close()
 

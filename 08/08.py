@@ -67,7 +67,7 @@ def list_resonant_antinodes(antennas):
 if __name__ == "__main__":
   # OPEN AND READ THE INPUT.TXT FILE, THEN CLOSE IT, 
   # AS IT IS NO LONGER NEEDED.
-  f = open('08\input.txt', 'r')
+  f = open('inputs\\08\\input.txt', 'r')
   lines = f.readlines()
   f.close()
 

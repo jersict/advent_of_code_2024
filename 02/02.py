@@ -71,7 +71,7 @@ def checkReport(levels, problem_dampener=False):
 if __name__ == "__main__":
 
   # OPEN AND READ THE INPUT.TXT FILE, THEN CLOSE IT, AS IT IS NO LONGER NEEDED.
-  f = open('02\input.txt', 'r')
+  f = open('inputs\\02\\input.txt', 'r')
   lines = f.readlines()
   f.close()
 
